@@ -3,3 +3,36 @@
         "docsmsft.docs-authoring-pack"
     ]
 }
+
+{
+  "recommendations": [
+    {
+      "name": "docsmsft.docs-authoring-pack",
+      "description": "Provides Markdown authoring assistance for content on Microsoft Learn, including support for basic Markdown syntax as well as custom Markdown syntax like alerts, code snippets, and non-localizable text. Now also includes some basic YAML authoring assistance, such as inserting TOC entries."
+    },
+    {
+      "name": "markdownlint",
+      "description": "A popular Markdown linter by David Anson to help make sure your Markdown is valid."
+    },
+    {
+      "name": "Code Spell Checker",
+      "description": "A fully offline spell checker by Street Side Software."
+    },
+    {
+      "name": "Learn Preview",
+      "description": "Uses the Microsoft Learn CSS for more accurate Markdown preview, including custom Markdown."
+    },
+    {
+      "name": "Learn Article Templates",
+      "description": "Allows users to scaffold Learn modules and apply Markdown skeleton content to new files."
+    },
+    {
+      "name": "Learn YAML",
+      "description": "Provides YAML schema validation and auto-complete."
+    },
+    {
+      "name": "Learn Images",
+      "description": "Provides image compression and resizing for folders and individual files to help authors of Microsoft Learn content."
+    }
+  ]
+}
