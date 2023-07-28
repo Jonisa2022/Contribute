@@ -35,6 +35,10 @@ To access the **Learn Markdown** menu, type <kbd>Alt</kbd>+<kbd>M</kbd>. You can
 
 See the [Learn Markdown readme](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-markdown) for an up-to-date list of commands.
 
+The Learn Preview extension uses the Microsoft Learn CSS for more accurate Markdown preview, including custom Markdown. This means that you can preview your Markdown content in the VS Code editor using the same CSS that is used on the Microsoft Learn website. This can help you to ensure that your content will look correct when it is published on Microsoft Learn.
+The Learn Preview extension also provides some additional features that can help you to improve your Markdown content. For example, the extension can check your Markdown for errors and provide suggestions for how to fix them. The extension can also help you to format your Markdown content and to add links and images.
+If you are a Microsoft Learn author, the Learn Preview extension can be a valuable tool for helping you to create high-quality content that will look great on the Microsoft Learn website.
+
 ## How to generate a main redirect file
 
 The Learn Markdown extension includes a script to generate or update a main redirection file for a repo, based on the `redirect_url` metadata in individual files. This script checks every Markdown file in the repo for `redirect_url`, adds the redirection metadata to the main redirection file (_.openpublishing.redirection.json_) for the repo, and moves the redirected files to a folder outside the repo. To run the script:
